@@ -43,7 +43,7 @@ document.body.addEventListener("keyup", (event) => {
     closeModal();
   }
 });
-sliderImg.addEventListener('touchmove',(event) => {
+sliderImg.addEventListener('touchend',(event) => {
   console.log(event);
   plusSlide(1);
   // if (event.) {
