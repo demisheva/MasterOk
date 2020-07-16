@@ -43,6 +43,15 @@ document.body.addEventListener("keyup", (event) => {
     closeModal();
   }
 });
+sliderImg.addEventListener('touchmove',(event) => {
+  console.log(event);
+  plusSlide(1);
+  // if (event.) {
+  //   plusSlide(-1);
+  // } else if (event.) {
+  //   plusSlide(1);
+  // }
+});
 
 function openModal() {
   document.getElementById("gallery-modal").style.display = "block";
