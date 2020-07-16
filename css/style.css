@@ -75,7 +75,7 @@ nav {
   display: flex;
   align-items: center;
   justify-content: space-around;
-  min-height: 10vh;
+  height: 10vh;
   background-color: var(--backgroung-transparent-color);
   font-size: 3rem;
   position: fixed;
@@ -93,7 +93,7 @@ nav {
   font-family: "Jura", sans-serif;
 }
 .logo img {
-  max-height: 4rem;
+  max-height: 8vh;
 }
 .logo p {
   letter-spacing: 5px;

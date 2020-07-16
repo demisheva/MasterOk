@@ -8,6 +8,12 @@
 
 /* Portrait tablets and small desktops */
 @media screen and (max-width: 991px) {
+  .animationFadeLeft {
+    animation-name: none;
+  }
+  .animationFadeRight {
+    animation-name: none;
+  }
   .nav-menu {
     position: absolute;
     height: 90vh;
@@ -45,6 +51,10 @@
     transform: rotate(-45deg);
     top: -2px;
   }
+  header {
+    line-height: 2.7rem;
+    text-align: center;
+}
   .about-block {
     flex: 44%;
   }
@@ -63,21 +73,16 @@
   }
   .logo img,
   .footer-logo img {
-    max-height: 2rem;
-}
+    max-height: 5vh;
+  }
   .logo p,
   .footer-logo p {
     letter-spacing: 0px;
     font-size: 1.2rem;
-}
-  .nav-menu{
+  }
+  .nav-menu {
     width: 100%;
   }
-  header {
-    line-height: 2.7rem;
-    text-align: center;
-
-}
   .gallery img {
     height: auto;
     width: 90%;
